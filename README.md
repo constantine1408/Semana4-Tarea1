@@ -124,8 +124,17 @@ bash tests/run-tests.sh
 
 El script crea la base `biblioteca_test` y ejecuta PHPUnit dentro del contenedor. Las pruebas revisan:
 
+
+
 1. La estructura: existen exactamente las 5 entidades, cada una con `id` + 5 atributos, y las 4 claves foráneas.
 2. Las relaciones: cada una funciona en ambos sentidos y no se pueden borrar registros que tienen dependientes.
 3. El CRUD por HTTP: listar, crear, ver, editar y eliminar en las 5 entidades, incluido el rechazo de datos inválidos.
 
 Resultado actual: 24 pruebas y 117 aserciones correctas.
+
+## CAPTURAS
+
+<img width="1935" height="1024" alt="ACTUALIZACION" src="https://github.com/user-attachments/assets/1152347d-2b5a-4c6f-86e1-2be9ffa10127" />
+<img width="1921" height="1022" alt="REGISTRO" src="https://github.com/user-attachments/assets/7a104559-6ae1-4c3e-b83b-2ed091b25da9" />
+<img width="1922" height="979" alt="LIBRO NUEVO" src="https://github.com/user-attachments/assets/24903ba6-7c46-4b3d-b74e-62a91b1079f5" />
+
