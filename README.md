@@ -140,14 +140,28 @@ Resultado actual: 24 pruebas y 117 aserciones correctas.
 
 ## Uso de inteligencia artificial
 
-En este proyecto usé un asistente de IA (Claude Code, de Anthropic) como apoyo. Los commits en los que intervino llevan la línea `Co-Authored-By: Claude`.
+Para el desarrollo de este proyecto se utilizó un asistente de inteligencia artificial, Claude Code, de Anthropic, como herramienta de apoyo en las actividades de programación, diseño y elaboración de pruebas. La participación de esta herramienta se encuentra identificada en los commits correspondientes mediante la referencia Co-Authored-By: Claude.
 
-Trabajo propio (Edwin Sanchez): definí los requisitos a partir del enunciado y del ejercicio de clase, elegí mantener el dominio de biblioteca y aprobé las cinco entidades con sus atributos. También probé el sistema en el navegador, tomé las capturas de esta página, corregí el nombre de la universidad y revisé el resultado antes de entregarlo.
+Trabajo realizado por el estudiante (Edwin Sánchez)
 
-Con ayuda de IA:
+Mi participación consistió en analizar el enunciado de la actividad y los ejercicios desarrollados en clase, definir los requisitos del sistema, seleccionar el dominio de biblioteca y aprobar la estructura de las cinco entidades con sus respectivos atributos.
 
-- Adaptación del ejercicio de clase: a partir del proyecto de la Semana 4, la IA escribió los modelos, las migraciones, las factories, el seeder, los controladores, los Form Requests, las rutas y las 24 pruebas para las entidades autores, géneros, libros, socios y préstamos.
-- Diseño de la interfaz: el rediseño visual con estilo de tela de encuadernación de biblioteca (`public/css/biblioteca.css`, las vistas de `resources/views/`, los parciales de `resources/views/partials/`, el controlador `InicioController` de la portada, los métodos `tela()` de `Genero` y `situacion()` de `Prestamo`, y la fuente de `public/fonts/`). Se hizo con la skill Impeccable, que también generó `PRODUCT.md`, `DESIGN.md` y la carpeta `.impeccable/`; esos archivos de trabajo no se subieron al repositorio. La dirección visual la elegí yo entre varias propuestas.
-- Imágenes y bocetos: los bocetos de diseño (archivos HTML) los generó la IA y no se usan en la aplicación. Las capturas de esta página son mías.
-- Redacción: la IA redactó este README y lo revisé con la skill Humanizer.
+Además, realicé las pruebas funcionales del sistema desde el navegador, tomé las capturas de pantalla utilizadas como evidencia, corregí el nombre de la universidad y revisé el funcionamiento y resultado final de la aplicación antes de su entrega.
 
+Actividades desarrolladas con apoyo de inteligencia artificial
+
+# 1. Desarrollo de la estructura y funcionalidad del sistema
+
+A partir del proyecto trabajado durante la Semana , se utilizó inteligencia artificial como apoyo para adaptar e implementar los modelos, migraciones, factories, seeders, controladores, solicitudes de validación (Form Requests), rutas y 24 pruebas automatizadas correspondientes a las cinco entidades del sistema: autores, géneros, libros, socios y préstamos.
+
+# 2. Diseño y presentación de la interfaz gráfica
+
+Se utilizó herramienstas de siseño como apoyo para el rediseño visual de la aplicación, implementando una identidad gráfica inspiradas en paginas distintas y encuadernación de una biblioteca. Este trabajo incluyó la hoja de estilos, las vistas, los componentes reutilizables, ajustes en los controladores y la incorporación de recursos tipográficos.
+
+# 3. Elaboración de bocetos y evidencias
+
+Los bocetos iniciales de diseño, desarrollados en archivos HTML, fueron generados con ayuda de inteligencia artificial y utilizados únicamente como referencia durante el proceso de diseño. No forman parte de la aplicación final. Las capturas de pantalla presentadas como evidencia del funcionamiento del sistema fueron realizadas directamente por Edwin Sanchez.
+
+Declaración final
+
+El desarrollo de este proyecto fue realizado por mí, Edwin Sánchez, con el apoyo de herramientas de inteligencia artificial como recurso complementario para facilitar determinadas tareas técnicas. La definición de los requisitos, el análisis del problema, la toma de decisiones, la selección del diseño, las pruebas de funcionamiento y la revisión del resultado final estuvieron bajo mi responsabilidad. Me encargué de verificar y validar el trabajo presentado, procurando que cumpliera con los objetivos y requerimientos establecidos en la actividad.
