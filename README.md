@@ -138,3 +138,16 @@ Resultado actual: 24 pruebas y 117 aserciones correctas.
 <img width="1921" height="1022" alt="REGISTRO" src="https://github.com/user-attachments/assets/7a104559-6ae1-4c3e-b83b-2ed091b25da9" />
 <img width="1922" height="979" alt="LIBRO NUEVO" src="https://github.com/user-attachments/assets/24903ba6-7c46-4b3d-b74e-62a91b1079f5" />
 
+## Uso de inteligencia artificial
+
+En este proyecto usé un asistente de IA (Claude Code, de Anthropic) como apoyo. Los commits en los que intervino llevan la línea `Co-Authored-By: Claude`.
+
+Trabajo propio (Edwin Sanchez): definí los requisitos a partir del enunciado y del ejercicio de clase, elegí mantener el dominio de biblioteca y aprobé las cinco entidades con sus atributos. También probé el sistema en el navegador, tomé las capturas de esta página, corregí el nombre de la universidad y revisé el resultado antes de entregarlo.
+
+Con ayuda de IA:
+
+- Adaptación del ejercicio de clase: a partir del proyecto de la Semana 4, la IA escribió los modelos, las migraciones, las factories, el seeder, los controladores, los Form Requests, las rutas y las 24 pruebas para las entidades autores, géneros, libros, socios y préstamos.
+- Diseño de la interfaz: el rediseño visual con estilo de tela de encuadernación de biblioteca (`public/css/biblioteca.css`, las vistas de `resources/views/`, los parciales de `resources/views/partials/`, el controlador `InicioController` de la portada, los métodos `tela()` de `Genero` y `situacion()` de `Prestamo`, y la fuente de `public/fonts/`). Se hizo con la skill Impeccable, que también generó `PRODUCT.md`, `DESIGN.md` y la carpeta `.impeccable/`; esos archivos de trabajo no se subieron al repositorio. La dirección visual la elegí yo entre varias propuestas.
+- Imágenes y bocetos: los bocetos de diseño (archivos HTML) los generó la IA y no se usan en la aplicación. Las capturas de esta página son mías.
+- Redacción: la IA redactó este README y lo revisé con la skill Humanizer.
+
