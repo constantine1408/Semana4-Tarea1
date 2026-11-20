@@ -1,6 +1,6 @@
 # Semana 4, Tarea 1: Biblioteca UNIANDES, gestión de préstamos (Laravel + MySQL)
 
-Sistema web para gestionar los préstamos de una biblioteca. Parte del ejercicio de clase (sistema de biblioteca de la Semana 4) y usa scaffolding de Laravel, con entidades y atributos propios.
+Sistema web para gestionar los préstamos de una biblioteca, hecho para la asignatura Aplicaciones Web de [Uniandes, Universidad Regional Autónoma de los Andes](https://www.uniandes.edu.ec/). Parte del ejercicio de clase (sistema de biblioteca de la Semana 4) y usa scaffolding de Laravel, con entidades y atributos propios.
 
 > "En base al ejercicio trabajado en clase, tómelo como ejemplo, usted debe generar en la creación de un sistema en donde se contemple en uso de scaffolding. Uno de lo requerimientos es que la base de datos debe tener un máximo de 5 entidades y cada entidad con 5 atributos. Deben tener en cuenta que las entidades deben estar relacionadas entre si."
 

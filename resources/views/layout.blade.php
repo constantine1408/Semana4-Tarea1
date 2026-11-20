@@ -26,7 +26,7 @@
     <aside class="barra">
         <a class="marca" href="{{ route('home') }}">
             <strong>Biblioteca UNIANDES</strong>
-            <span>Universidad de las Américas</span>
+            <span>Universidad Regional Autónoma de los Andes</span>
             <span class="filete" aria-hidden="true"></span>
         </a>
 
@@ -64,7 +64,7 @@
 
             @yield('contenido')
 
-            <p class="pie">© {{ date('Y') }} Universidad de las Américas — UNIANDES · Sistema de préstamos construido con scaffolding de Laravel.</p>
+            <p class="pie">© {{ date('Y') }} <a href="https://www.uniandes.edu.ec/">UNIANDES, Universidad Regional Autónoma de los Andes</a> · Sistema de préstamos construido con scaffolding de Laravel.</p>
         </div>
     </main>
 </div>
